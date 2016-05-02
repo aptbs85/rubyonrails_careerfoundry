@@ -19,6 +19,11 @@
         <span class="icon-bar"></span> 
       </button>
       <%= link_to 'Home', static_pages_index_path, class: "navbar-brand" %>
+      <%= form_tag("/products", method: "get") do %>
+        <%= label_tag(:q, "Search for:") %>
+        <%= text_field_tag(:q) %>
+        <%= submit_tag("Search") %>
+      <% end %>
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav navbar-right">

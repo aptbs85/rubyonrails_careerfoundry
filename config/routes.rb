@@ -17,6 +17,8 @@ Rails.application.routes.draw do
   root 'static_pages#landing_page'
   
   resources :orders, only: [:index, :show, :create, :destroy]
+  
+  post 'static_pages/thank_you'
 
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'

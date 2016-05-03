@@ -9,6 +9,8 @@ Rails.application.routes.draw do
   get 'static_pages/contact'
 
   get 'static_pages/index'
+  
+  post 'static_pages/thank_you'
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
@@ -17,8 +19,6 @@ Rails.application.routes.draw do
   root 'static_pages#landing_page'
   
   resources :orders, only: [:index, :show, :create, :destroy]
-  
-  post 'static_pages/thank_you'
 
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'

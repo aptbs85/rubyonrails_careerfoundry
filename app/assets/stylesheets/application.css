@@ -13,3 +13,12 @@
  *= require_tree .
  *= require_self
  */
+
+.searchbox {
+  float: left;
+  margin-top: 16px;
+}
+
+.loginout {
+  margin-top: 6px;
+}

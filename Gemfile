@@ -7,6 +7,7 @@ gem 'rails', '4.2.5'
 group :development, :test do
 gem 'sqlite3'
 gem 'rspec-rails', '~> 3.4'
+gem "factory_girl_rails", "~> 4.0"
 end
 
 # Use SCSS for stylesheets
@@ -63,3 +64,4 @@ gem 'devise'
 gem 'cancancan'
 
 gem 'will_paginate', '~> 3.1.0'
+

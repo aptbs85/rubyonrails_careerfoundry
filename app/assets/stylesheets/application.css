@@ -22,3 +22,14 @@
 .loginout {
   margin-top: 6px;
 }
+
+.footer {
+	font-family: Verdana, Geneva, sans-serif;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  position: fixed;
+  padding: 1em;
+  background-color: #efefef;
+  text-align: center;
+}

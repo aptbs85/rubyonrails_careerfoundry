@@ -1,5 +1,6 @@
 class ProductsController < ApplicationController
   before_action :set_product, only: [:show, :edit, :update, :destroy]
+  respond_to :json, :html
 
   # GET /products
   # GET /products.json
@@ -11,6 +12,7 @@ def index
   else
     @products = Product.all
   end
+  respond_with @products
 end
 
   # GET /products/1

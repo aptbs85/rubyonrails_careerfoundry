@@ -25,7 +25,9 @@ app.controller('OrdersCtrl', ['$scope', 'models', function($scope, models){
       recent_order = models.orders.get({id: order.id});
       $scope.orders.push(recent_order);
       $scope.newOrder = '';
+    }); 
   }
+  
   
   $scope.deleteOrder = function(order){
     models.orders.delete(order);

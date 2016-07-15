@@ -6,18 +6,15 @@
 	<div class="row product_show">
 
 <p>
-  <strong>Name:</strong>
   <%= @product.name %>
 </p>
 
 <p>
-  <strong>Description:</strong>
-  <%= @product.description %>
+  <%= image_tag(@product.image_url, class: "img-responsive img-zoom", width: "700", data_zoom_image: @product.image_url) %>
 </p>
 
 <p>
-  <strong>Image url:</strong>
-  <%= image_tag(@product.image_url, class: "img-responsive img-zoom", width: "700", data_zoom_image: @product.image_url) %>
+  <%= @product.description %>
 </p>
 
 <p>

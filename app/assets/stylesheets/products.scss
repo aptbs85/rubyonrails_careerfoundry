@@ -2,18 +2,111 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
+
+
+
+body {
+	padding-top: 5%;
+	padding-bottom: 5%;
+}
+
+.body {
+	min-height: 400px;
+  margin-bottom: 5%;
+}
+
+#vinyls {
+
+	text-align: center;
+}
+
+.title {
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+
+.product {
+	padding: 15px;
+}
+
+.product:hover {
+	background-color: #f5f5f5;
+	opacity: 0.6;
+	filter: alpha(opacity=60);
+}
+
+.footer {
+	font-family: Verdana, Geneva, sans-serif;
+	position: fixed;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  background-color: #efefef;
+  text-align: center;
+}
+
+.field,
+.actions {
+	height: auto;
+	margin: 0 auto;
+}
+
+.product-paths {
+	padding-right: 15px;
+	padding-left: 15px;
+	margin: 0 auto;
+}
+
+.product-form {
+	width: 60%;
+	height: auto;
+	padding-top: 20px;
+	margin: 0 auto;
+}
+
 .product_show {
 	margin: 0 auto;
-	width: 50%;
+	width: 100%;
 	height: auto;
 	padding-top: 3%;
+	
 }
 
 .product_comment {
 	margin: 0 auto;
+	padding-left: 30px;
+	padding-right: 30px;
+}
+
+.rated {
+	text-align: center;
+}
+
+#price {
+	border-bottom: 2px solid #ecbd27;
 }
 
 .product-show {
 	padding-top: 3%;
 }
 
+.paycrud {
+	text-align: center;
+}
+
+.buttoncenter {
+	text-align: center;
+}
+
+.crud1 {
+	text-align: center;
+}
+
+.paginate {
+	text-align: center;
+}
+
+.rating {
+	text-align: center;
+}

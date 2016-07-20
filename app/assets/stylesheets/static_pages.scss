@@ -2,234 +2,144 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
-h1 {
-	text-align: left;
-	color: blue;
-	font-family: Futura, Helvetica, Arial, sans-serif;
-}
+
+
+
+
+
 
 body {
-  margin-top: 80px;
+	padding-top: 5%;
+	padding-bottom: 5%;
 }
 
-footer {
-  background-color: grey;
-  text-align: center;
+.title {
+	padding-top: 40px;
+	min-height: 400px;
+  margin-bottom: 5%;
 }
 
-
-
-
-
-
-
-//CSS for new header
-
+.notice,
+.alert {
+	margin-top: 50px;
+}
 
 h1 {
-  text-transform: uppercase;
-  font-size:25px;
-  color: #0089cf;
-}
-
-h1, h2 {
-  font-family: helvetica;
-  letter-spacing: 2px;
-  text-align:center;
-  color: #0089cf;
-}
-
-h3 {
-  font-family: helvetica;
-  letter-spacing: 2px;
-  text-align:center;
-  color: #0089cf;
-}
-
-.about-text {
-  width: 50%;
-  margin-left:25%;
-}
-
-p {
-  font-family: helvetica;
-}
-
-
-.navbar li {
-  text-transform: uppercase;
-  letter-spacing: 0.1em;
+	padding-bottom: 3%;
 }
 
 .navbar {
-  background-color: #fff;
-  border: #dbdbdb 2px solid;
-  border-radius: 0;
+	background: white;
+	border-bottom: 5px solid #5b7a6e;
+}
+
+.icon-bar {
+	color: #5b7a6e;
 }
 
 .navbar-brand {
-  font-family: "News Cycle";
-  font-size: 35px;
-  font-weight: bold;
+	text-decoration: none;
+	color: black;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 1.2em;
+	padding: 20px 15px;
+	margin-top: 0;
 }
 
-.navbar a:not(.navbar-brand) {
-  color: #000;
-  font-weight: 100;
-  font-size:12px;
-  margin:10px, 10px, 10px, 10px;
+.navbar-brand a,
+.navbar-inverse .navbar-nav>li>a {
+	text-decoration: none;
+	color: black;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 1.2em;
+	padding: 20px 15px;
 }
 
-
-.navbar-toggle {
-  color: #fff;
+.navbar-brand a:hover,
+.navbar-inverse .navbar-nav>li>a:hover {
+	color: white;
+	text-decoration: none;
+	background-color: #5b7a6e;
 }
 
-.navbar-right {
-  margin-right:1px;
-}
-
-.navbar-form {
-  margin-top:12px;
-  margin-bottom:0;
-  font-family: helvetica;
-}
-
-.navbar-search {
-  margin-left: 1px;
-}
-
-.navbar button {
-  color: #fff;
-  background-color: #0089CF;
-  margin-right:10px;
-  text-transform: uppercase;
-  letter-spacing: 0.1em;
-  font-size:13px;
-}
-
-
-body {
-  margin-top:0px;
-  background-color: #e9e9e9;
-  margin-bottom: 100px;
-}
-
-p {
-  margin: 0;
-}
-
-.jumbotron {
-    margin-bottom: 0px;
-    background-image: url(jumbo.jpg);
-    background-position: 0% 25%;
-    background-size: cover;
-    background-repeat: no-repeat;
-    color: white;
-    margin-top:0;
-    margin-bottom: 20px;
-}
-
-.products-index p {
-  font-size: 15px;
-  text-align:center;
-}
-
-
-.signup {
-  text-align: center;
-  vertical-align: middle;
-  border-color: #000;
-  border-width: 5px;
-  border-style: dotted;
-  margin-top: 15%;
-  margin-bottom: 25%;
-  background-color: #000;
-  color: #fff;
-  margin-left: 25%;
-  padding: 50px;
-
-}
-
-.contactbox {
-  text-align: center;
-  vertical-align: middle;
-  font-family: helvetica;
-  text-transform: uppercase;
-}
-
-.contactrow {
-  margin: auto;
-  width: 50%;
-}
-
-.email {
-  width: 100
-}
-
-
-/* footer styles */ 
-footer {
-  margin-top: 300px;
-  position: absolute;
-  bottom: 10px;
-  width: 100%;
+.footer {
+	font-family: Verdana, Geneva, sans-serif;
+  right: 0;
+  bottom: 0;
+  left: 0;
   position: fixed;
-  height: 40px;
-  background-color: #999999;
-}
-footer ul.footerleft{
-    margin-left: 150px;
-    margin-top: 10px;
-}
-footer ul.footerleft li{
-    display: inline;
-    margin-right: 25px;
-}
-footer a{
-    color: #222;
+  padding: 1em;
+  background-color: #efefef;
+  text-align: center;
 }
 
-footer a:hover{
-    color: #ffffff;
-    text-decoration: none;    
+h1,
+h2,
+p {
+	text-align: center;
 }
 
-footer img {
-  height: 40px;
-  margin-bottom: 20px;
-  margin-top:5px;
-  filter: gray; /* IE6-9 */
-  filter: grayscale(1); /* Microsoft Edge and Firefox 35+ */
-  -webkit-filter: grayscale(1); /* Google Chrome, Safari 6+ & Opera 15+ */
+h2 {
+	font-family: Verdana, Geneva, sans-serif;
 }
 
-
-footer img:hover {
-filter: none;
-  -webkit-filter: grayscale(0);
+.metric {
+	margin: 0 auto;
+	width: 100%;
+	height: auto;
 }
 
+#bg {
+	background-image: image_url("redvinyl.jpg");
+	background-attachment: fixed;
+	background-size: cover;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size:cover;
+	min-height: 100%;
+	min-width: 100%;
+}
 
+.carousel-img {
+	width: 600px;
+	height: auto;
+	margin: auto;
+}
 
-.social:hover {
-     -webkit-transform: scale(1.0);
-     -webkit-transition-duration: 0.5s;
- }
- .social {
-     -webkit-transform: scale(0.8);
-     color: #222;
-     
- }
+.carousel-caption {
+	color: ghostwhite;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+	font-family: Futura, Helvetica, sans-serif;
+	font-size: 4.2em;
+	margin: auto;
+	padding-bottom: 20%;
+}
 
-footer ul.footerright{
-        margin-right: 150px;
-        margin-top: 10px;
-    }
-    footer ul.footerright li{
-        display: inline;
-        margin-right: 25px;
-    }
+.form-row {
+	margin: auto;
+	width: 60%;
+	height: auto;
+	padding-top: 1%;
+}
 
+.form-entry {
+	width: 100%;
+	height: auto;
+	margin: auto;
+}
 
-//CSS for new header END
+.auth-links {
+	margin: auto;
+	height: auto;
+	width: 20%;
+}
+
+.padding {
+	padding-top: 25px;
+}
+
+.burning {
+	color: black;
+	letter-spacing: .25em;
+	font-weight: bold;
+}

@@ -4,11 +4,11 @@
   <p id="notice"><%= notice %></p>
 
 <div class="row">
-  <h1 id="title3">Listing Products</h1>
+  <h1 id="vinyls">Listing Products</h1>
 </div>
 
 
-<div class="container-fluid">
+<div class="container">
   <div class="row">
     <% cache(cache_key_for_products) do %>
       <%= render @products %>
@@ -16,11 +16,6 @@
   </div>
 </div>
 <br>
-<strong><%= link_to 'New Product', new_product_path %></strong>
+<div class="buttoncenter"><%= link_to 'New Product', new_product_path, class: "btn btn-default" %></div>
 
 </div>
-
-
-
-
-

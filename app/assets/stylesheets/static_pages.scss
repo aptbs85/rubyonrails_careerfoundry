@@ -30,11 +30,11 @@ h1 {
 
 .navbar {
 	background: white;
-	border-bottom: 5px solid #5b7a6e;
+	border-bottom: 5px solid #D70000;
 }
 
 .icon-bar {
-	color: #5b7a6e;
+	color: #D70000;
 }
 
 .navbar-brand {
@@ -59,7 +59,7 @@ h1 {
 .navbar-inverse .navbar-nav>li>a:hover {
 	color: white;
 	text-decoration: none;
-	background-color: #5b7a6e;
+	background-color: #D70000;
 }
 
 .footer {
@@ -142,4 +142,8 @@ h2 {
 	color: black;
 	letter-spacing: .25em;
 	font-weight: bold;
+}
+
+.navsearch {
+	margin-top: 12px;
 }

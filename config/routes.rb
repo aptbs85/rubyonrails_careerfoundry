@@ -24,7 +24,7 @@ Rails.application.routes.draw do
   # See how all your routes lay out with "rake routes".
 
   # You can have the root of your site routed with "root"
-  root 'static_pages#landing_page'
+  root 'products#index'
   
   resources :orders, only: [:index, :show, :create, :destroy]
 

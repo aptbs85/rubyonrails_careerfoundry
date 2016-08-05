@@ -30,11 +30,11 @@ h1 {
 
 .navbar {
 	background: white;
-	border-bottom: 5px solid #D70000;
+	border-bottom: 5px solid #2C3E50;
 }
 
 .icon-bar {
-	color: #D70000;
+	color: #2C3E50;
 }
 
 .navbar-brand {
@@ -59,7 +59,7 @@ h1 {
 .navbar-inverse .navbar-nav>li>a:hover {
 	color: white;
 	text-decoration: none;
-	background-color: #D70000;
+	background-color: #2C3E50;
 }
 
 .footer {
@@ -146,4 +146,45 @@ h2 {
 
 .navsearch {
 	margin-top: 12px;
+}
+
+
+//incrediblue
+
+
+
+.hero {
+  background-image: url(http://www.grenadabluewatersailing.com/wp-content/uploads/2013/09/Chao-Lay-1.jpg);
+  height: 1100px;
+  color: white;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 0 !important;
+  font-weight: bold;
+  text-align: center;
+  margin-top: -30px;
+  margin-bottom: -100px;
+  p { 
+  color: white;
+  }
+  
+.hireme { 
+	font-size: 100px;
+	font-family: Bebas
+}
+
+.herocontent {
+	margin-top: 100px;
+}
+
+.portfoliotext {
+	font-size: 30px;
+	font-family: Bebas
+}
+
+.prtf {
+	margin-top: 20px;
+}
+  
+  
 }

@@ -18,5 +18,4 @@ class StaticPagesController < ApplicationController
         :body => @message).deliver_now
   end
   
-  
 end
